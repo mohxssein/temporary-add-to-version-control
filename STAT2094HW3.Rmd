@@ -1,0 +1,40 @@
+---
+title: "STAT2094 Homework 3"
+author: "Mohamed Hussein"
+date: "2025-02-10"
+output: pdf_document
+---
+1. "Mathematical Operations"
+```{r}
+x^2
+x^2 + y^3
+y/x
+abs(x)
+sqrt(y)
+((x+y)^2)/((x-y)^2)
+```
+2. "Functions on Vectors"
+```{r}
+x <- c(2, 10, 6, 4, 8)
+class(x)
+which.max(x)
+which.min(x)
+y <- c("2", "10", "6", "4", "8")
+is.character(y[4])
+```
+3. "Generating Numerical Vector"
+```{r}
+seq(from = 1, to = 15, by = 2)
+rep(5, 8)
+x <- c(1, 2, 3)
+y <- rep(x, 3)
+matrix(c(x, y), ncol = 10, nrow = 10)
+a <- rep(1, 4)
+a
+b <- rep(2, 2)
+b
+c <- seq(from = 3, to = 5, by = 1)
+c
+z <- c(a, b, c)
+z
+```

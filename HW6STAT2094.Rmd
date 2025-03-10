@@ -1,0 +1,44 @@
+---
+title: "HW6Stat2094"
+author: "Mohamed Hussein"
+date: "2025-02-28"
+output: pdf_document
+---
+```{r}
+head(mtcars)
+summary(mtcars)
+```
+```{r}
+mtcars$cyl = factor(mtcars$cyl)
+mtcars$vs = factor(mtcars$vs)
+mtcars$am = factor(mtcars$am)
+mtcars$gear = factor(mtcars$gear)
+mtcars$carb = factor(mtcars$carb)
+summary(mtcars)
+```
+The difference between the summary output between the first part and the second part is that the factor variables in the second part are organized by how many observations there were for each categorical variable, rather than showing averages. 
+```{r}
+sd(mtcars$mpg)
+sd(mtcars$disp)
+sd(mtcars$hp)
+sd(mtcars$drat)
+sd(mtcars$wt)
+sd(mtcars$qsec)
+```
+```{r}
+table(mtcars$cyl)
+table(mtcars$vs)
+table(mtcars$am)
+table(mtcars$gear)
+table(mtcars$carb)
+```
+```{r}
+aggregate(mtcars$mpg, by = list(mtcars$cyl), FUN = mean)
+```
+
+```{r}
+table(mtcars$vs, mtcars$am)
+t = table(mtcars$vs, mtcars$am)
+prop.table(t)
+```
+

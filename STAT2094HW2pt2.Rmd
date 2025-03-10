@@ -1,0 +1,9 @@
+---
+title: "HW2 STAT2094"
+author: "Mohamed Hussein"
+date: "2025-02-01"
+output: pdf_document
+---
+a. I do not have any prior experience with programming. 
+b. I have taken several statistics classes and am familiar with some statistical concepts. I've taken STAT 3604 and took AP Stat in high school, and am currently taking an econometrics class using Stata. 
+c. I'm hoping to build a solid foundation for myself in learning how to use R, as it is desired in the job market. I think giving feedback is th best thing to help me reach this goal.
